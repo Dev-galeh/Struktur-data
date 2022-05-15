@@ -42,6 +42,10 @@ public class TugasStack1 {
         //push keempat
         stack.push(tumpukan[3]);
         System.out.println(stack);
+        
+         //push kelima
+        stack.push(tumpukan[4]);
+        System.out.println(stack);
 
 
         /**
@@ -64,6 +68,10 @@ public class TugasStack1 {
         // pop keempat
         System.out.println(stack);
         stack.pop();
+        
+         // pop kelima
+        System.out.println(stack);
+        stack.pop();
 
 
         /**
@@ -73,9 +81,9 @@ public class TugasStack1 {
          * [100]
          * [100, 200]
          * [100, 200, 300]
-         * [100, 200, 300, 400]
+         * [100, 200, 300, 400, 500]
          * Menampilkan data (pop) serta me remove dari tumpukan
-         * [100, 200, 300, 400]
+         * [100, 200, 300, 400, 500]
          * [100, 200, 300]
          * [100, 200]
          * [100]
